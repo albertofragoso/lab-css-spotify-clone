@@ -130,16 +130,18 @@ header h1 {
 .img {
   margin-top: 50%;
   filter: brightness(1);
+  margin-top: 50%;
 }
 
 .img:hover {
-  animation-name: logo;
+  filter: brightness(0);
+  /* animation-name: logo;
   animation-duration: 4s;
-  transition: all .5s ease;
-  filter: brightness(1);
+  transition: all .5s ease; */
 }
 
-@keyframes logo {
+
+/*@keyframes logo {
   0% {
     filter: brightness(1);
   }
@@ -151,4 +153,4 @@ header h1 {
   100% {
     filter: brightness(0);
   }
-}
+}*/
